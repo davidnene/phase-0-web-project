@@ -1,4 +1,42 @@
 body {
-    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepik.com%2Fimage-401949997%2Fblue-tech-background.html&psig=AOvVaw1QK9ZMnooivbZTNNLwHirt&ust=1654587273092000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKi8npGomPgCFQAAAAAdAAAAABAD);
+    background: url(./background.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    color: rgba(255, 255, 255, 1) ;
+}
+body div#content {
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    background: rgb(10, 10, 10);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+body div#content ul li {
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    color: aqua;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(12, 157, 201);
+}
+
+p a {
+    color: aqua;
 }
